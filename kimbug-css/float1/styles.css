@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: -0.02em;
+    background-color: black;
+  }
+  
+  a {
+    font-size: 18px;
+    line-height: 20px;
+    color: #8492a6;
+    text-decoration: none;
+  }
+  
+  /* ▼ WHERE YOUR CODE BEGINS */
+
+  .tab-menu {
+    list-style-type: none;
+    background-color: white;
+    padding-left:0;
+    border-bottom: 1px solid red;
+    max-width: 540px;
+  }
+
+  .tab-menu::after {
+    content: '';
+    display: block;
+    clear: left;
+    /* left, right, both*/
+  }
+
+  li {
+   float:left;
+   background-color: white;
+  }
+
+  .tab-menu a {
+    display: block;
+    padding: 16px 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .tab-menu .selected {
+    border-bottom: 1px solid blue;
+    color:blue;
+    font-weight: 500;
+  }
+

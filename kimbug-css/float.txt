@@ -1,0 +1,23 @@
+float를 배우는 이유 : 블록의 가로 배치하기 위함
+어떤 요소가 float가 되면 display가 blcok이 된다.
+(단, 이때 길막은 하지 못한다.)
+(요즘엔 거의 안쓴다.)
+
+
+원래 자식이 float되면 부모가 자식을 찾지못하고 크기가 0이 되는데,
+overflow:hidden 을 주게되면 부모가 자식을 찾는다. (마법의 주문)
+
+clear property: 오로지 float로 인해 망가진 레이아웃을 고치기 위해 만들어진 속성
+(display: block인 요소에게만 사용가능)
+clear:left (float:left된 자식을 찾게되는 능력을 자식 요소에 준다.)
+
+css의 가상요소   (content property 반드시 사용해야함)
+::before
+::after
+
+.parent::after {
+	content: "";
+	display: blcok;
+	clear: both;
+	/* left, right, both*/
+	     }
