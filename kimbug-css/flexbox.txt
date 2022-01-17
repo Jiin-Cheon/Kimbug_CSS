@@ -1,0 +1,27 @@
+1. 플렉스 박스 선언
+2. 가로 정렬? 세로 정렬?
+3. 무조건 한 줄 안에 다 정렬? (상황에 따라 예외 있을지?)
+
+1. display: flex;  (정렬하고자하는 요소의 부모에게 줘야함)
+/* flex | inline-flex */
+
+2. flex-direction: row;
+/* row | row-reverse | column | column-reverse*/
+
+3. flex-wrap: nowrap (강제로 자식의 사이즈를 줄여서 한줄로 정렬)
+	    wrap (한 줄에 모두 정렬하기에 공간이 넉넉치 않으면 여러 줄을 만들어 버린다.)
+		(자식 사이즈는 무조건 유지)
+
+flex 사용시 보이지 않는 축이 2개 생긴다(Axis)
+이 때, flex-direction 값에 따라 Axis의 형태가 달라진다.
+
+Main Axis: row의 경우 왼쪽에서 오른쪽으로, column의 경우 위에서 아래로 흐르는 방향
+Cross Axis: Main Axis와 수직 방향으로 생긴다.
+
+Main-axis 측 방향으로 정렬하고 싶다면, justify-content
+	1. justify-content: flex-start (흐르는 방향 처음부터)
+	2. justify-content: flex-end (흐르는 방향 끝부터)
+	3. justify-content: center (가운데 정렬)
+	4. justify-content: space-between (요소들 사이 간격을 같게)
+	5. justify-content: space-around (요소들의 좌우 간격을 같게)
+Cross-axis 방향으로 정렬하고 싶다면, align-items, align-content
