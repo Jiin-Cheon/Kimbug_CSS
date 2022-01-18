@@ -1,0 +1,27 @@
+font-size: 글씨 크기 (단위: px, em ,rem)
+line-height: 줄 간격 (단위: px, em, rem)  (em많이 사용, 생략시 em)
+	line-height가 얼마가 되든, 글씨가 줄간격의 가운데에 배치 된다.
+letter-spacing: 자간(글자 사이의 간격) (px, em), (em많이 사용, 생략 불가능, -쓰면 자간 줄여짐)
+font-family: 서체
+font-wiehgt: 글씨 굵기 (100, 200, 300, ... 100씩 커지는 수) ( 400=regular size, 700=bold)
+color: 글자 색깔 (hex, rgba방식)
+text-align: 글자 정렬 (left, right, center)
+text-indent: 들여쓰기 
+text-transform: (영어만 해당, none, capitalize(띄워쓰기마다 대문자 갱신), uppercase, lowercase)
+text-decoration: 글자에 줄 긋기 (none, underline, line-throughm overline)
+font-style: (normal, italic, oblique)
+
+
+(단위: px(절대 단위), em(1em=실제로 적용된 폰트 사이즈), rem(html에 적용된 폰트 사이(상대 단위))
+
+
+google fonts에서 가져와서
+html에 
+<link href="" rel="stylesheet">를 head에 넣고
+
+css에
+font-family: ~~~;를 body에 넣는다.
+
+
+import를 쓸 것인가 link href를 쓸것인가?
+https://abcdqbbq.tistory.com/10

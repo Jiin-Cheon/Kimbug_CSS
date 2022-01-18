@@ -1,0 +1,10 @@
+html -> viewport meta 선언
+	<meta name="viewport" content="width=device-width" />
+css -> media query 선언해야함!
+	@media screen and (min-width: 768px) {
+			  (max-width: 도 가능)
+					 }
+
+vh = viewport height
+height = 100vh; -> 내가 보고 있는 화면의 100%를 차지하겠다.
+

@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Lato", sans-serif;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #273444;
+    margin-top:16px;
+    
+  }
+  
+  /* ▼ WHERE YOUR CODE BEGINS */
+
+  .user-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: white;
+      width: 386px;
+      height: 304px;
+      border-radius:10px;
+      padding: 32px 40px;
+
+  }
+
+  .user-photo img {
+      display: block;
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+  }
+
+  .user-info {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 32px;
+      width: 100%;
+      text-align: center;
+  }
+
+  .user-info li {
+      list-style-type: none;
+  }
+
+  .user-info .info-property {
+      color: #8492A6;
+      font-size: 12px;
+      padding-left: 0;
+
+  }
+
+  .user-info .info-value {
+      color: #0066FF;
+      font-size: 32px;
+      line-height: 40px;
+      padding-top: 4px;
+      padding-left: 0;
+
+  }
+
+  h2 {
+      font-size: 14px;
+      line-height: 20px;
+      color: #8492A6;
+      margin-top: 4px;
+
+  }
