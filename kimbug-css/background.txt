@@ -1,0 +1,14 @@
+background color:
+
+background-image: url();
+	1. './assets/bg.jpg' 와 같은 방식으로 직접 가지고 오기
+	2. unsplash 같은 무료 이미지 사이트 들어가서 이미지 주소복사해서 붙여넣기
+
+background-repeat: repeat, no-repeat;
+
+background-size: contain, cover, custom;
+	1. contain: (요소 안에 사이즈 줄여서라도 들어감)
+	2. cover: 요소 안에 
+	3. custom: 100% auto; 같은 방법이나 auto 100% 뭐 이런식으로 쓰기
+
+background-position: x축값 y축값 (left,right,center, ~%)
