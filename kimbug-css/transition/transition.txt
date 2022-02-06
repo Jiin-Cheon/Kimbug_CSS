@@ -1,0 +1,10 @@
+{
+transition: (all,font-szie,background-color...) (100ms) (ease-in, ease-out, cubic-bezier) (delay값(ms,s))
+}
+
+따로따로 transiton을 먹이고 싶으면,
+
+{
+transition: font-size 100ms ease-out, background-color 200ms ease-in 1ms;
+)
+와 같이 ,로 구분한다.
