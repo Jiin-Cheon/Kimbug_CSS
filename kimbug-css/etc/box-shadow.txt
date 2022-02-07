@@ -1,0 +1,9 @@
+x축으로 얼마나 이동 시킬지, y축으로 얼마나 이동시킬지, 흐린 정도, 그림자 사이즈, 색상
+순서대로 h-offset v-offset blur spread color
+
+box-shadow는 2개도 사용 가능.
+
+ex) box-shadow:  34px 34px 68px #bebebe,
+             -34px -34px 68px #ffffff;
+neomorphism box shadow 검색시 원하는 box shadow 생성 가능
+(https://neumorphism.io/#e0e0e0)

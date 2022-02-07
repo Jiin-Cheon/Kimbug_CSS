@@ -1,0 +1,14 @@
+bootstrap 사용
+구글에서 bootstrap 검색 후 사이트 들어가서 css import 코드 가져오기
+
+html에
+	<div class= "container">
+		<div class="row">
+			<div class="col-1~12"(col 몇칸을 차지할껀지)>
+			<요소 만들기>
+		</div>
+	</div>
+
+/* col-sm-6 col-md-4 col-12 와 같이 화면의 크기가 작을때, 클때 다 다르게 콘텐츠의 크기를 달리할 수 있다. */
+/* 보통 col-sm-12 col-md-6 col-lg-4 와 같이, 반응형으로 구성한다.*/
+/*tip: 반드시, container->row->col의 구조를 지킨 후, 그 안에 요소를 집어넣어야한다!!*/

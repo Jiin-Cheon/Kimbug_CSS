@@ -1,0 +1,12 @@
+transform: translate(x,y)
+	translateX(?px)
+	translateY(?px)          (단위를 %로 설정시, 자신의 크기의 %만큼 움직인다.)
+해당 도형을 내가 원하는 방향으로 옮길 때 사용(단, 원래 위치를 기억하기 때문에, 다른 요소에 영향을 주지 않는다.)
+
+transform: scale(N)
+해당 도형의 N배 만큼 커진다. 0과 1사이의 숫자로 작게 만들수도 있다.
+((단, 원래 위치를 기억하기 때문에, 다른 요소에 영향을 주지 않는다.))
+	scale(x,y)
+	가로로 x배 만큼, 세로로 y배만큼 커진다.
+transform: rotate(Ndeg)  ex(90deg)
+해당 도형 N도 만큼 회전시키기

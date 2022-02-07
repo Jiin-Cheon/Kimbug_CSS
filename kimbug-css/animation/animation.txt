@@ -1,0 +1,30 @@
+transition은 전환,
+animation은 그와 별개로 애니메이션을 주고싶을 때 사용
+
+@keyframe을 통해 어떻게 변화할지 줘야함
+
+@keyframe name {
+	0% {
+	/ * rules */
+	     }
+
+	50% {
+	/* rules */
+	     }
+
+	100% {
+	/* rules */
+	     }
+
+
+작성 후, 사용 할 css class에
+animation-name: name;
+animation-duration: 2s; 
+animation-timing-function: ease-in-out;
+animation-delay: 1000ms;
+animation-iteration-count(되풀이): 3 or infinite;
+와 같이 설정한다.
+
+/*tip: animation-direction: alternate; 사용시 왔다갔다한다.*/
+
+

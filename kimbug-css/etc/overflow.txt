@@ -1,0 +1,7 @@
+visible(기본 값), auto, scroll, hidden
+
+
+overflow-x
+overflow-y
+
+에 각각 상단의 값을 사용할 수 있다.

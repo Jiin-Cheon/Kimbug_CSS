@@ -1,0 +1,5 @@
+visibility: visible, hidden
+(단, 보이지 않아져도 원래 영역은 그대로 차지하고 있다.)
+
+display:none
+(보이지도 않고, 원래 영역도 차지하지 않는다.)
